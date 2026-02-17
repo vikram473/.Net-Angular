@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Enrollment Form</title>
+</head>
+<body>
+
+    <header>
+        <h1>Online Course Enrollment</h1>
+        <p>Fill in the details to enroll in your preferred course</p>
+    </header>
+
+    <section>
+        <form title="Course Enrollment Form">
+
+            <!-- Course Selection with Datalist -->
+            <label for="course">Select Course:</label><br>
+            <input
+                type="text"
+                id="course"
+                name="course"
+                list="course-list"
+                required
+            >
+            <datalist id="course-list">
+                <option value="HTML">
+                <option value="CSS">
+                <option value="JavaScript">
+                <option value="Python">
+                <option value="React">
+            </datalist>
+            <br><br>
+
+            <!-- Email Input -->
+            <label for="email">Email Address:</label><br>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                required
+            >
+            <br><br>
+
+            <!-- Age Input -->
+            <label for="age">Age:</label><br>
+            <input
+                type="number"
+                id="age"
+                name="age"
+                min="16"
+                max="60"
+                required
+            >
+            <br><br>
+
+            <!-- Skill Level using Range -->
+            <label for="skill">Skill Level (1–10):</label><br>
+            <input
+                type="range"
+                id="skill"
+                name="skill"
+                min="1"
+                max="10"
+            >
+            <br><br>
+
+            <!-- Skill Level Meter -->
+            <label>Skill Level Indicator:</label><br>
+            <meter
+                min="0"
+                max="10"
+                low="3"
+                high="7"
+                optimum="9"
+                value="6"
+            >
+                Intermediate
+            </meter>
+            <br><br>
+
+            <!-- Enrollment Progress -->
+            <label>Enrollment Completion:</label><br>
+            <progress value="70" max="100">70%</progress>
+            <br><br>
+
+            <!-- Submit Button -->
+            <input type="submit" value="Enroll Now">
+
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Online Learning Platform</p>
+    </footer>
+
+</body>
+</html>
