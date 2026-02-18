@@ -1,0 +1,80 @@
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Header */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+/* Blog layout using Flexbox */
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+}
+
+/* Blog card */
+.blog-card {
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1 1 30%;
+    box-sizing: border-box;
+}
+
+/* Blog text */
+.blog-card h2 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.blog-card p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #555555;
+}
+
+/* Read More button */
+.btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color: #1f6fa5;
+}
+
+/* Tablet view */
+@media (max-width: 900px) {
+    .blog-card {
+        flex: 1 1 45%;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 600px) {
+    .blog-card {
+        flex: 1 1 100%;
+    }
+}
