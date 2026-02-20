@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Discount Calculator</title>
+</head>
+<body>
+
+    <script>
+        let purchaseAmount = 4200;
+        let discount = 0;
+        let finalAmount;
+
+        if (purchaseAmount >= 5000) {
+            discount = purchaseAmount * 0.20;
+        } else if (purchaseAmount >= 3000) {
+            discount = purchaseAmount * 0.10;
+        } else {
+            discount = 0;
+        }
+
+        finalAmount = purchaseAmount - discount;
+
+        console.log("Purchase Amount: ₹" + purchaseAmount);
+        console.log("Discount Applied: ₹" + discount);
+        console.log("Final Payable Amount: ₹" + finalAmount);
+    </script>
+
+</body>
+</html>
