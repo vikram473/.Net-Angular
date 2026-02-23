@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Location Logger</title>
+</head>
+<body onload="loadLocationHistory()">
+
+    <h2>My Location Logger</h2>
+
+    <!-- Button -->
+    <button onclick="getLocation()">Get My Location</button>
+
+    <!-- Status & Current Location -->
+    <p id="status"></p>
+    <p id="latitude"></p>
+    <p id="longitude"></p>
+
+    <h3>Location History (Last 5)</h3>
+    <ul id="history"></ul>
+
+    <!-- External JS -->
+    <script src="script2.js"></script>
+
+</body>
+</html>
