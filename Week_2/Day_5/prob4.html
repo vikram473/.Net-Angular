@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>E-Commerce Landing Page</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    >
+
+    <!-- Minimal Theme Override (Bootstrap variables) -->
+    <style>
+        :root {
+            --bs-primary: #0d6efd;
+            --bs-dark: #0b132b;
+        }
+    </style>
+</head>
+<body>
+
+<!-- ================= NAVBAR WITH OFFCANVAS ================= -->
+<nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">ShopX</a>
+
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="offcanvas offcanvas-end text-bg-dark" id="offcanvasMenu">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title">Menu</h5>
+                <button class="btn-close btn-close-white"
+                        data-bs-dismiss="offcanvas"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#offers">Offers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#newsletter">Newsletter</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- ================= HERO SECTION ================= -->
+<section class="bg-primary text-white text-center py-5 mt-5">
+    <div class="container">
+        <h1 class="fw-bold">Shop Smart with ShopX</h1>
+        <p class="lead">Best deals on electronics, fashion & accessories</p>
+        <button class="btn btn-light">Shop Now</button>
+    </div>
+</section>
+
+<!-- ================= CAROUSEL ================= -->
+<section class="container my-5">
+    <div id="productCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner text-center">
+            <div class="carousel-item active">
+                <h3>Laptop Deals</h3>
+                <p>Up to 40% Off</p>
+            </div>
+            <div class="carousel-item">
+                <h3>Smartphones</h3>
+                <p>Latest Models Available</p>
+            </div>
+            <div class="carousel-item">
+                <h3>Accessories</h3>
+                <p>Premium Quality</p>
+            </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button"
+                data-bs-target="#productCarousel"
+                data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+
+        <button class="carousel-control-next" type="button"
+                data-bs-target="#productCarousel"
+                data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+</section>
+
+<!-- ================= PRODUCTS SECTION ================= -->
+<section id="products" class="bg-light py-5">
+    <div class="container">
+        <h3 class="text-center mb-4">Featured Products</h3>
+
+        <div class="row g-4">
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5>Laptop</h5>
+                        <p>₹55,000</p>
+                        <button class="btn btn-primary btn-sm">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5>Mobile</h5>
+                        <p>₹25,000</p>
+                        <button class="btn btn-primary btn-sm">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5>Headphones</h5>
+                        <p>₹3,000</p>
+                        <button class="btn btn-primary btn-sm">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card h-100 text-center">
+                    <div class="card-body">
+                        <h5>Smart Watch</h5>
+                        <p>₹4,500</p>
+                        <button class="btn btn-primary btn-sm">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ================= NEWSLETTER ================= -->
+<section id="newsletter" class="py-5 text-center">
+    <div class="container">
+        <h3>Subscribe to Newsletter</h3>
+        <form class="row justify-content-center mt-3">
+            <div class="col-md-4">
+                <input type="email" class="form-control mb-2" placeholder="Enter email" required>
+            </div>
+            <div class="col-md-2">
+                <button class="btn btn-dark w-100">Subscribe</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="bg-dark text-white text-center py-3">
+    © 2026 ShopX | All Rights Reserved
+</footer>
+
+<!-- Bootstrap JS Bundle -->
+<script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+</script>
+
+<!-- External JS -->
+<script src="script.js"></script>
+
+</body>
+</html>
