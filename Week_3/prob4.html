@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery To-Do List</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+        .task-item {
+            margin: 5px 0;
+        }
+        .delete-btn {
+            margin-left: 10px;
+            color: red;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>📝 To-Do List</h2>
+
+    <input type="text" id="taskInput" placeholder="Enter new task">
+    <button id="addTask">Add</button>
+
+    <h4>
+        Total Tasks: <span id="totalCount">0</span> |
+        Completed: <span id="completedCount">0</span>
+    </h4>
+
+    <ul id="taskList"></ul>
+
+    <script src="script3.js"></script>
+
+</body>
+</html>

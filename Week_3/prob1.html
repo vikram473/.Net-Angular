@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Feedback Form</title>
+
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+    <h2>Student Feedback Form</h2>
+
+    <form id="feedbackForm">
+        <div>
+            <label>Name:</label><br>
+            <input type="text" id="name">
+        </div>
+        <br>
+
+        <div>
+            <label>Email:</label><br>
+            <input type="email" id="email">
+        </div>
+        <br>
+
+        <div>
+            <label>Course Rating:</label><br>
+            <select id="rating">
+                <option value="">Select</option>
+                <option>Excellent</option>
+                <option>Good</option>
+                <option>Average</option>
+                <option>Poor</option>
+            </select>
+        </div>
+        <br>
+
+        <div>
+            <label>Comments:</label><br>
+            <textarea id="comments"></textarea>
+        </div>
+        <br>
+
+        <button type="button" id="submitBtn">Submit Feedback</button>
+    </form>
+
+    <!-- Message Area -->
+    <p id="message"></p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
