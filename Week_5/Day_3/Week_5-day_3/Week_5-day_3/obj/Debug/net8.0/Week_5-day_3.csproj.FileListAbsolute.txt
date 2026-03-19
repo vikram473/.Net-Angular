@@ -1,0 +1,15 @@
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\bin\Debug\net8.0\Week_5-day_3.exe
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\bin\Debug\net8.0\Week_5-day_3.deps.json
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\bin\Debug\net8.0\Week_5-day_3.runtimeconfig.json
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\bin\Debug\net8.0\Week_5-day_3.dll
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\bin\Debug\net8.0\Week_5-day_3.pdb
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\obj\Debug\net8.0\Week_5-day_3.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\obj\Debug\net8.0\Week_5-day_3.AssemblyInfoInputs.cache
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\obj\Debug\net8.0\Week_5-day_3.AssemblyInfo.cs
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\obj\Debug\net8.0\Week_5-day_3.csproj.CoreCompileInputs.cache
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\obj\Debug\net8.0\Week_5-day_3.sourcelink.json
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\obj\Debug\net8.0\Week_5-day_3.dll
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\obj\Debug\net8.0\refint\Week_5-day_3.dll
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\obj\Debug\net8.0\Week_5-day_3.pdb
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\obj\Debug\net8.0\Week_5-day_3.genruntimeconfig.cache
+D:\Dot_Net_Angular\Week_5-day_3\Week_5-day_3\obj\Debug\net8.0\ref\Week_5-day_3.dll

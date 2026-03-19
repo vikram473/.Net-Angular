@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Dot_Net_Angular\\Week_5-day_3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B13EDAE-295B-433D-9F21-0EDEC05EC83F}|Week_5-day_3\\Week_5-day_3.csproj|d:\\dot_net_angular\\week_5-day_3\\week_5-day_3\\product_linq_queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B13EDAE-295B-433D-9F21-0EDEC05EC83F}|Week_5-day_3\\Week_5-day_3.csproj|solutionrelative:week_5-day_3\\product_linq_queries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Product_Linq_Queries.cs",
+              "DocumentMoniker": "D:\\Dot_Net_Angular\\Week_5-day_3\\Week_5-day_3\\Product_Linq_Queries.cs",
+              "RelativeDocumentMoniker": "Week_5-day_3\\Product_Linq_Queries.cs",
+              "ToolTip": "D:\\Dot_Net_Angular\\Week_5-day_3\\Week_5-day_3\\Product_Linq_Queries.cs",
+              "RelativeToolTip": "Week_5-day_3\\Product_Linq_Queries.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAswDAAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-19T13:51:12.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
